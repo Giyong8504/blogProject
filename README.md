@@ -37,6 +37,9 @@
     | Given | 블로그 글을 저장한다.                                                       |
     | When  | 목록 조회 API를 호출한다.                                                   |
     | Then| 응답코드가 200 OK이고, 반환받은 값 중에 0번째 요소의 content와 title이 저장된 값과 같은지 확인한다. |
+ 
+  - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/fa40cc85-eafb-4e61-8f3b-4d48a8e36eda)
+
 
 - 블로그 글 조회하는 API 구현
 - 블로그 글 내용을 조회하는 API 구현
