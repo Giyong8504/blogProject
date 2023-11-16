@@ -76,7 +76,10 @@
 - 블로그 글 목록 뷰 구현하기
   - 모델에 전달한 블로그 글 리스트 개수만큼 반복
   - 부트스트랩 사용
+  - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/58491839-99f9-4eb5-b7fb-7642ff32d538)
+
 
 - 블로그 글 뷰 구현하기
   - 엔티티에 생성, 수정 시간 추가
   - 블로그 글 상세 연결
+  - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/9720163f-610d-4b2a-8268-3f00fd329535)
