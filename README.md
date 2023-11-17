@@ -79,25 +79,29 @@
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/58491839-99f9-4eb5-b7fb-7642ff32d538)
 <br>
 
-- 블로그 글 뷰 구현하기
+### 블로그 글 뷰 구현하기
   - 엔티티에 생성, 수정 시간 추가
   - 블로그 글 상세 연결
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/9720163f-610d-4b2a-8268-3f00fd329535)
 <br>
 
-- 삭제 기능 추가하기
+### 삭제 기능 추가하기
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/7cb78d11-bc8c-4d1a-a018-5e6bd7dc9f23)
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/f446b7a9-690f-4944-a191-2771890ae0aa)
 <br>
 
-- 수정, 생성 뷰 컨트롤러
+### 수정, 생성 뷰 컨트롤러
   - id가 없는 경우 기본 생성자를 이용해 빈 ArticleViewResponse 객체를 만듬.
   - id가 있는 경우 기존 값을 가져오는 findById() 메서드 호출.
 
-- 수정 기능
+### 수정 기능
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/b9502db3-a30f-4a3f-a976-cd182482d548)
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/7d3d63d3-8a5b-4851-b031-cb5be8d1c4f6)
 <br>
 
-- 등록 기능
-  - 
+### 등록 기능
+  - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/38ed863f-0d31-46b2-9c0e-c952f374d710)
+  - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/88b60970-fbfb-4d6d-8e73-6be5e56eb1f2)
+  - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/672972a3-9b1d-4b49-9fa6-998385356312)
+
+
