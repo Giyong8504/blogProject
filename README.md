@@ -83,3 +83,5 @@
   - 엔티티에 생성, 수정 시간 추가
   - 블로그 글 상세 연결
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/9720163f-610d-4b2a-8268-3f00fd329535)
+
+- 삭제 기능 추가하기
