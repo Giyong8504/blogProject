@@ -97,3 +97,7 @@
 - 수정 기능
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/b9502db3-a30f-4a3f-a976-cd182482d548)
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/7d3d63d3-8a5b-4851-b031-cb5be8d1c4f6)
+<br>
+
+- 등록 기능
+  - 
