@@ -68,7 +68,7 @@
     |-------|--------------------------------------------------------------------|
     | Given | 블로그 글을 저장하고, 블로그 글 수정에 필요한 객체를 만든다. |
     | When  | UPDATE API로 수정요청을 보낸다. 이때, 요청 타입은 JSON이며, given절에서 미리 만들어둔 객체를 요청 본문으로 함께 보낸다. |
-    | Then| 응답코드가 200 OK이닞 확인한다. 블로그 글 id를 조회한 후에 값이 수정되었는지 확인한다. |
+    | Then| 응답코드가 200 OK인지 확인한다. 블로그 글 id를 조회한 후에 값이 수정되었는지 확인한다. |
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/17a3ed0f-0fa7-4344-80b2-ff1918a7e8ad)
 
 ---
@@ -95,4 +95,5 @@
   - id가 있는 경우 기존 값을 가져오는 findById() 메서드 호출.
 
 - 수정 기능
-  -
+  - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/b9502db3-a30f-4a3f-a976-cd182482d548)
+  - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/7d3d63d3-8a5b-4851-b031-cb5be8d1c4f6)
