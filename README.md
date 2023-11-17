@@ -88,3 +88,11 @@
 - 삭제 기능 추가하기
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/7cb78d11-bc8c-4d1a-a018-5e6bd7dc9f23)
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/f446b7a9-690f-4944-a191-2771890ae0aa)
+<br>
+
+- 수정, 생성 뷰 컨트롤러
+  - id가 없는 경우 기본 생성자를 이용해 빈 ArticleViewResponse 객체를 만듬.
+  - id가 있는 경우 기존 값을 가져오는 findById() 메서드 호출.
+
+- 수정 기능
+  -
