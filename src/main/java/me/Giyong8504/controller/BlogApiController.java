@@ -3,7 +3,7 @@ package me.Giyong8504.controller;
 import lombok.RequiredArgsConstructor;
 import me.Giyong8504.domian.Article;
 import me.Giyong8504.dto.AddArticleRequest;
-import me.Giyong8504.dto.ArticlesResponse;
+import me.Giyong8504.dto.ArticleResponse;
 import me.Giyong8504.dto.UpdateArticleRequest;
 import me.Giyong8504.service.BlogService;
 import org.springframework.http.HttpStatus;
@@ -29,20 +29,20 @@ public class BlogApiController {
     }
 
     @GetMapping("/api/articles")
-    public ResponseEntity<List<ArticlesResponse>> findAllArticles() {
-        List<ArticlesResponse> articles = blogService.findAll()
-                .stream().map(ArticlesResponse::new).toList();
+    public ResponseEntity<List<ArticleResponse>> findAllArticles() {
+        List<ArticleResponse> articles = blogService.findAll()
+                .stream().map(ArticleResponse::new).toList();
 
         return ResponseEntity.ok()
                 .body(articles);
     }
 
     @GetMapping("/api/articles/{id}")
-    public ResponseEntity<ArticlesResponse> findArticle(@PathVariable long id) {
+    public ResponseEntity<ArticleResponse> findArticle(@PathVariable long id) {
         Article article = blogService.findById(id);
 
         return ResponseEntity.ok()
-                .body(new ArticlesResponse(article));
+                .body(new ArticleResponse(article));
     }
 
     @DeleteMapping("/api/articles/{id}")

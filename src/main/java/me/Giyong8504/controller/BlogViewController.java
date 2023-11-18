@@ -1,10 +1,14 @@
 package me.Giyong8504.controller;
 
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import me.Giyong8504.domian.Article;
 import me.Giyong8504.dto.ArticleListViewResponse;
 import me.Giyong8504.dto.ArticleViewResponse;
 import me.Giyong8504.service.BlogService;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
