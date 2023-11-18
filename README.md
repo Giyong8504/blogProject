@@ -104,4 +104,22 @@
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/88b60970-fbfb-4d6d-8e73-6be5e56eb1f2)
   - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/672972a3-9b1d-4b49-9fa6-998385356312)
 
+---
+## 5일차
 
+### 회원 가입 기능
+- 엔티티 테이블 구조
+
+| 컬럼명 | 자료형 | null허용 | 키 | 설명 |
+|---|---|---|---|---|
+| id | BIGINT | N | 기본키 | 일련번호, 기본키 |
+|email|VARCHAR(255)|N|  | 이메일 |
+|passaword|VARCHAR(255)|N|  |패스워드(암호화하여 저장)|
+|created_at|DATETIME|N|  |생성일자|
+|updated_at|DATETIME|N|  |수정일자|
+
+<br>
+
+- 스프링 시큐리티 설정하기
+  - 회원 가입 기능
+  - 로그인 기능
