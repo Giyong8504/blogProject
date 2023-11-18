@@ -122,7 +122,14 @@
 
 - 스프링 시큐리티 설정하기
   - 회원 가입 기능
+    - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/52ca0d67-6404-4073-a60a-94fefb2e508b)
+
   - 로그인 기능
-    - 로그인 후 article 페이지로 리다이렉트
+    - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/400ea9d5-634c-428a-bd62-865a1edc40eb)
+ 
+  - 로그인 후 article 페이지로 리다이렉트
+    - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/c9a3db61-d1a8-497f-840b-0e090448cb82)
+
   - 로그아웃 기능
     - 로그아웃 후 login 페이지로 리다이렉트
+      - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/47849cdb-fe83-480f-b398-b3b61b392455)
