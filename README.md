@@ -133,3 +133,12 @@
   - 로그아웃 기능
     - 로그아웃 후 login 페이지로 리다이렉트
       - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/47849cdb-fe83-480f-b398-b3b61b392455)
+---
+## 6일차
+- JWT 서비스 구현하기
+  - 의존성 추가
+    - jaxb-api, jjwt-api
+  - 토큰 제공자 추가
+    - issuer: kky5163@naver.com
+    - secret_key: blog-springboot
+  - 리프레시 토큰 도메인 구현
