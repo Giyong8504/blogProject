@@ -15,7 +15,7 @@ spring:
 
   h2: # H2 콘솔 활성화
     console:
-      enable: true
+      enabled: true
 jwt:
   issuer: kky5163@naver.com
   secret_key: blog-springboot
