@@ -20,7 +20,7 @@ public class UserApiController {
     @PostMapping("/user")
     public String signup(AddUserRequest request) {
         userService.save(request);
-        return "redirect:/articles";
+        return "redirect:/login";
     }
     @GetMapping("/logout")
     public String logout(HttpServletRequest request, HttpServletResponse response) {
