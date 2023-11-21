@@ -16,6 +16,18 @@ spring:
   h2: # H2 콘솔 활성화
     console:
       enabled: true
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 3....
+            client-secret: G...
+            scope:
+              - email
+              - profile
+
 jwt:
   issuer: kky5163@naver.com
   secret_key: blog-springboot
