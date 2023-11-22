@@ -152,3 +152,30 @@
   - 쿠키 관리 클래스 생성
   - OAuth2 서비스 구현
   - OAuth2 설정 파일 생성
+
+## 8일차
+- 인증 요청과 관련된 상태를 저장할 저장소 구현
+- 인증 성공 시 실행할 핸들러 구현
+- 글에 글쓴이 추가
+    - 글 수정, 삭제, 글쓴이 확인 로직 추가
+
+## OAuth2 실행
+### localhost:8080/login 구글 연동화면 🔽
+- ![image](https://github.com/Giyong8504/blogProject/assets/128211712/fed86111-07ea-47e6-b7cf-275ed4f4867c)
+  <br>
+
+### 액세스 토큰 🔽
+- ![image](https://github.com/Giyong8504/blogProject/assets/128211712/fab8992c-86ec-4fd2-8298-920cb5c5da0f)
+  <br>
+
+### 쿠키에 리프레쉬 토큰 저장 🔽
+- ![image](https://github.com/Giyong8504/blogProject/assets/128211712/b50e296d-4a0d-4e75-b99d-8b77709a38f7)
+  <br>
+
+### 글 등록 🔽
+- ![image](https://github.com/Giyong8504/blogProject/assets/128211712/5da3bd60-6d71-435a-b155-94ad91859e5b)
+  <br>
+
+### 다른 사람의 글 수정, 삭제 실패 화면 🔽
+- ![image](https://github.com/Giyong8504/blogProject/assets/128211712/ab8492ed-d773-4fa4-87ff-cf8f1000fdbd)
+  <br>

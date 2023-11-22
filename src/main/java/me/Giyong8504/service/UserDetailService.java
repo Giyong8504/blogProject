@@ -16,7 +16,7 @@ public class UserDetailService implements UserDetailsService { // 스프링 시�
     @Override
     public User loadUserByUsername(String email) {
         return userRepository.findByEmail(email)
-                .orElseThrow(() -> new IllegalArgumentException(email));
+                .orElseThrow(() -> new IllegalArgumentException((email)));
     }
 }
 

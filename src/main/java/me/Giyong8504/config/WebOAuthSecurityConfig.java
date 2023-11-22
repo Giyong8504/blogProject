@@ -2,6 +2,8 @@ package me.Giyong8504.config;
 
 import lombok.RequiredArgsConstructor;
 import me.Giyong8504.config.jwt.TokenProvider;
+import me.Giyong8504.config.oauth.OAuth2AuthorizationRequestBasedOnCookieRepository;
+import me.Giyong8504.config.oauth.OAuth2SuccessHandler;
 import me.Giyong8504.config.oauth.OAuth2UserCustomService;
 import me.Giyong8504.repository.RefreshTokenRepository;
 import me.Giyong8504.service.UserService;
