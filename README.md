@@ -179,3 +179,7 @@
 ### 다른 사람의 글 수정, 삭제 실패 화면 🔽
 - ![image](https://github.com/Giyong8504/blogProject/assets/128211712/ab8492ed-d773-4fa4-87ff-cf8f1000fdbd)
   <br>
+
+
+## 9일차
+- ckeditor5 추가
