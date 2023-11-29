@@ -7,12 +7,14 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
+@EntityListeners(AuditingEntityListener.class)
 public class Article {
 
     @Id // id 필드를 기본키로 지정
@@ -27,12 +29,12 @@ public class Article {
     private String content;
 
     @CreatedDate // 엔티티가 생성될 때 생성 시간 저장
-    @Column(name = "created_at")
-    private LocalDateTime createAt;
+    @Column(name = "created_at", updatable = false)
+    private LocalDateTime createdAt;
 
     @LastModifiedDate // 엔티티가 수정 될 때 수정 시간 저장
-    @Column(name = "updated_at")
-    private LocalDateTime updateAt;
+    @Column(name = "updated_at", insertable = false)
+    private LocalDateTime updatedAt;
 
     @Column(name = "author", nullable = false)
     private String author;
